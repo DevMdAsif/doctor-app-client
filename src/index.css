@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.linkStyle {
+  @apply ml-5 font-bold  text-[#313b47];
+}
