@@ -4,7 +4,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 function Hero() {
   return (
-    <div className="h-full w-full md:grid lg:grid-cols-2 lg:mt-28">
+    <div className="h-full md:grid lg:grid-cols-2 lg:mt-28 lg:pb-20">
       <div className="lg:inline-flex ml-24 hidden">
         <img className="h-[525px] w-72" src={dog} alt="" />
         <img className="h-80 ml-5" src={cat} alt="" />
