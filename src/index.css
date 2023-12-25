@@ -5,3 +5,10 @@
 .linkStyle {
   @apply ml-5 font-bold  text-[#313b47];
 }
+
+.primaryButton {
+  @apply text-white bg-[#0e82fd] duration-500 rounded-lg hover:bg-white hover:text-[#1976d2] border-2 border-[#1976d2] sm:block  tracking-tight;
+}
+.secondaryButton {
+  @apply text-white rounded-lg duration-500 mt-2 hover:bg-[#03274e] bg-[#0e82fd] py-3 font-bold;
+}

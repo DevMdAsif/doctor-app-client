@@ -5,12 +5,13 @@ import icon2 from "../../../assets/images/serviceImg/6bafbbc03e12ff3194fd.svg";
 import icon3 from "../../../assets/images/serviceImg/78890ac5d9a7df685838.svg";
 import icon4 from "../../../assets/images/serviceImg/bc4f1ae1bb84064a2707.svg";
 import Banner from "../../../component/banner/Banner";
+import Doctors from "../Doctors/Doctors";
 
 function Home() {
   return (
     <div className="max-w-8xl">
       <Hero />
-      <div className="h-screen mt-20">
+      <div className="h-full mt-20">
         <Banner
           header={"OUR SERVICES"}
           name={"What can We do"}
@@ -39,6 +40,7 @@ function Home() {
           />
         </div>
       </div>
+      <Doctors />
     </div>
   );
 }
