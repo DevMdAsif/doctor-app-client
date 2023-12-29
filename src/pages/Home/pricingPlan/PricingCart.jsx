@@ -6,7 +6,7 @@ function PricingCart({ header, suggestion, price, services }) {
         <div
           className={`flex flex-col  ${
             suggestion ? "bg-slate-800 text-white" : " bg-white"
-          } p-6 mx-auto max-w-lg h-[520px] bg-white hover:bg-[#1e293b] duration-500 text-center text-gray-900 rounded-[40px] border group relative`}
+          } p-6 mx-auto max-w-lg h-[520px] hover:bg-[#1e293b] duration-500 text-center text-gray-900 rounded-[40px] border group relative`}
         >
           <h3 className="mb-4 text-2xl font-semibold group-hover:text-white">
             {header}
