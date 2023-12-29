@@ -11,6 +11,7 @@ function PricingCart({ header, suggestion, price, services }) {
           <h3 className="mb-4 text-2xl font-semibold group-hover:text-white">
             {header}
           </h3>
+          {suggestion && <p className="text-[#0f7ff7]">{suggestion}</p>}
           <div className="flex justify-center items-baseline my-8 ">
             <span
               className={`mr-2 text-5xl font-extrabold  group-hover:text-white ${
