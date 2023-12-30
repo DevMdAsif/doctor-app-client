@@ -1,4 +1,4 @@
-import useDoctorsinfo from "../../../Hooks/DoctorsInfo/useDoctorsinfo";
+import useFetchingData from "../../../Hooks/DoctorsInfo/useFetchingData";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Banner from "../../../component/banner/Banner";
 import Rating from "@mui/material/Rating";
@@ -11,7 +11,7 @@ import { FreeMode, Pagination } from "swiper/modules";
 import Loading from "../../shared/Loading/Loading";
 
 function Doctors() {
-  const { doctors, loading } = useDoctorsinfo();
+  const { data, loading } = useFetchingData("http://localhost:5000/doctors");
 
   if (loading) {
     return <Loading />;
@@ -35,7 +35,7 @@ function Doctors() {
           modules={[FreeMode, Pagination]}
           className="mySwiper "
         >
-          {doctors?.map((doctor) => (
+          {data?.map((doctor) => (
             <SwiperSlide key={doctor._id}>
               <div className=" bg-white  rounded-3xl mx-3 overflow-hidden">
                 <div className="flex justify-center cursor-pointer">
