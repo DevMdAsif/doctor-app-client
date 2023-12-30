@@ -7,6 +7,7 @@ import icon4 from "../../../assets/images/serviceImg/bc4f1ae1bb84064a2707.svg";
 import Banner from "../../../component/banner/Banner";
 import Doctors from "../Doctors/Doctors";
 import PricingPlan from "../pricingPlan/PricingPlan";
+import AboutUs from "../aboutUs/AboutUs";
 
 function Home() {
   return (
@@ -43,6 +44,7 @@ function Home() {
       </div>
       <Doctors />
       <PricingPlan />
+      <AboutUs />
     </div>
   );
 }

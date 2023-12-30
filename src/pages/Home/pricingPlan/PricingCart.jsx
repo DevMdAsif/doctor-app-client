@@ -1,5 +1,4 @@
 function PricingCart({ header, suggestion, price, services }) {
-  console.log(suggestion);
   return (
     <div>
       <div>
