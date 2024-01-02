@@ -12,3 +12,7 @@
 .secondaryButton {
   @apply text-white rounded-lg duration-500 mt-2 hover:bg-[#03274e] bg-[#0e82fd] py-3 font-bold;
 }
+
+.socialIcon {
+  @apply text-[#6b7280] text-2xl hover:text-[#0e82fd] duration-700;
+}

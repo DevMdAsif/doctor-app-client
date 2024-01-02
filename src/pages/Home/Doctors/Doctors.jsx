@@ -1,4 +1,4 @@
-import useFetchingData from "../../../Hooks/DoctorsInfo/useFetchingData";
+import useFetchingData from "../../../Hooks/useFetcingData/useFetchingData";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Banner from "../../../component/banner/Banner";
 import Rating from "@mui/material/Rating";

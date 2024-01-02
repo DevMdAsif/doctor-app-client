@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Banner from "../../../component/banner/Banner";
 import aboutImg from "../../../assets/images/bd802392c7d4b2b6215f.png";
-import useFetchingData from "../../../Hooks/DoctorsInfo/useFetchingData";
+import useFetchingData from "../../../Hooks/useFetcingData/useFetchingData";
 import { useState } from "react";
 
 function AboutUs() {
