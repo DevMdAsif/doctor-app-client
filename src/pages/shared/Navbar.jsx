@@ -166,15 +166,19 @@ function ResponsiveAppBar() {
               </>
             ) : (
               <div className="inline-flex">
-                <button className="text-black mr-5 hover:text-[#1976d2] ">
-                  <PersonOutlineIcon className="ml-1" /> Log in
-                </button>
-                <button
-                  className="text-white bg-[#0e82fd] p-2 duration-500 rounded-lg hover:bg-white hover:text-[#1976d2]
+                <Link to="login">
+                  <button className="text-black mr-5 mt-2 hover:text-[#1976d2] ">
+                    <PersonOutlineIcon className="ml-1" /> Log in
+                  </button>
+                </Link>
+                <Link to="singUp">
+                  <button
+                    className="text-white bg-[#0e82fd] p-2 duration-500 rounded-lg hover:bg-white hover:text-[#1976d2]
                border-2 hover:border-[#1976d2] hidden sm:block "
-                >
-                  <PersonOutlineIcon className="text-xs mr-1" /> Sing Up
-                </button>
+                  >
+                    <PersonOutlineIcon className="text-xs mr-1" /> Sing Up
+                  </button>
+                </Link>
               </div>
             )}
           </div>
