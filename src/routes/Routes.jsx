@@ -4,6 +4,7 @@ import Home from "../pages/Home/home/Home";
 import SingUp from "../pages/singUp/SingUp";
 import Doctor from "../pages/singUp/Doctor";
 import Patient from "../pages/singUp/Patient";
+import Login from "../pages/login/Login";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/singUp/patient",
         element: <Patient />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },
